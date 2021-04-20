@@ -32,6 +32,8 @@
 body {
   margin: 0;
 
+  overflow-x: hidden;
+
   color: #2a2626;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -59,10 +61,12 @@ h3 {
 
 .container {
   position: relative;
-  margin: 0 auto;
-  width: 1100px;
-  padding: 100px 0;
+
   z-index: 1;
+
+  width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .d-flex {
@@ -115,6 +119,7 @@ h3 {
 
 .bg {
   position: relative;
+
   background-color: var(--light);
 }
 
@@ -156,8 +161,9 @@ h3 {
 }
 
 .btn {
-  padding: 12px 24px;
   display: inline-block;
+
+  padding: 12px 24px;
 }
 
 .btn:hover {
@@ -168,12 +174,11 @@ h3 {
 .btn-orange {
   border: none;
 
-  background-color: var(--main);
-}
-
-.btn-orange {
   color: var(--white);
+
   text-decoration: none;
+
+  background-color: var(--main);
 }
 
 .text-center {
@@ -183,6 +188,7 @@ h3 {
 .video {
   position: relative;
   top: 100px;
+
   padding: 0;
 }
 
@@ -198,36 +204,34 @@ h3 {
   background-color: var(--main-dark);
 }
 
-.navigation {
+#navigation {
   width: 1440px;
 }
 
-.navigation nav {
+#navigation nav {
   padding-top: 100px;
 }
 
-.navigation h2 {
+#navigation h2 {
   font-size: 52px;
 }
 
 .nav-title {
-  margin-bottom: 2em;
   margin-right: 20px;
+  margin-bottom: 2em;
+  width: 350px;
   padding: 0 24px 24px 0;
 
-  width: 350px;
   height: 320px;
 }
 
 .nav-item {
-  margin-bottom: 2em;
   margin-right: 20px;
+  margin-bottom: 2em;
   padding: 24px;
   width: 330px;
   height: 320px;
-}
 
-.nav-item {
   text-decoration: none;
   color: var(--dark);
 }
@@ -248,6 +252,66 @@ h3 {
 .digit {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha" sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: 1;
+}
+
+.f-normal {
+  font-weight: 400;
+}
+
+.f-size-14 {
+  font-size: 14px;
+}
+
+.f-size-24 {
+  font-size: 24px;
+}
+
+.f-size-34 {
+  font-size: 34px;
+}
+
+.f-neucha {
+  font-family: "Neucha", sans-serif;
+}
+
+.f-open-sans {
+  font-family: "Open-Sans", sans-serif;
+}
+
+.text-t-dark {
+  color: var(--trans-dark);
+}
+
+.line-height-1 {
+  line-height: 1em;
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.c-span-all {
+  column-span: all;
+}
+
+.p-5-10 {
+  padding: 5px 10px;
+}
+
+.break-after-column {
+  break-after: column;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
 }
