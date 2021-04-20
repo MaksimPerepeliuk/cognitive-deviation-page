@@ -57,13 +57,12 @@ h3 {
   font-size: 34px;
 }
 
-section {
-  max-width: 1100px;
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
   padding: 100px 0;
-}
-
-.title h1 {
-  margin-top: 0;
+  z-index: 1;
 }
 
 .d-flex {
@@ -82,12 +81,28 @@ section {
   flex-wrap: wrap;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
 .text-orange {
   color: var(--main);
 }
 
 .text-dark {
   color: var(--dark);
+}
+
+.text-white {
+  color: var(--white);
 }
 
 .font-bold {
@@ -99,6 +114,7 @@ section {
 }
 
 .bg {
+  position: relative;
   background-color: var(--light);
 }
 
@@ -141,6 +157,7 @@ section {
 
 .btn {
   padding: 12px 24px;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -154,7 +171,7 @@ section {
   background-color: var(--main);
 }
 
-.btn-orange a {
+.btn-orange {
   color: var(--white);
   text-decoration: none;
 }
@@ -163,10 +180,74 @@ section {
   text-align: center;
 }
 
-.mb-0 {
-  margin-bottom: 0;
+.video {
+  position: relative;
+  top: 100px;
+  padding: 0;
 }
 
-.video {
+.video h2 {
+  margin-bottom: 30px;
+}
+
+.video iframe {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.bg-dark {
+  background-color: var(--main-dark);
+}
+
+.navigation {
+  width: 1440px;
+}
+
+.navigation nav {
+  padding-top: 100px;
+}
+
+.navigation h2 {
+  font-size: 52px;
+}
+
+.nav-title {
+  margin-bottom: 2em;
+  margin-right: 20px;
+  padding: 0 24px 24px 0;
+
+  width: 350px;
+  height: 300px;
+}
+
+.nav-item {
+  margin-bottom: 2em;
+  margin-right: 20px;
+  padding: 24px;
+  width: 330px;
+  height: 300px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.nav-item:hover {
+  background-color: var(--main);
+}
+
+.nav-item:hover h3,
+.nav-item:hover p {
+  color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.digit {
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: "Neucha" sans-serif;
+  line-height: 1;
 }
