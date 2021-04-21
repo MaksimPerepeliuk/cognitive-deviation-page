@@ -204,6 +204,14 @@ h3 {
   background-color: var(--main-dark);
 }
 
+.bg-white {
+  background-color: var(--white);
+}
+
+.text-brown {
+  color: var(--brow);
+}
+
 #navigation {
   width: 1440px;
 }
@@ -217,9 +225,9 @@ h3 {
 }
 
 .nav-title {
+  width: 350px;
   margin-right: 20px;
   margin-bottom: 2em;
-  width: 350px;
   padding: 0 24px 24px 0;
 
   height: 320px;
@@ -284,6 +292,10 @@ h3 {
   color: var(--trans-dark);
 }
 
+.text-t-white {
+  color: var(--trans-white);
+}
+
 .line-height-1 {
   line-height: 1em;
 }
@@ -314,4 +326,8 @@ h3 {
 
 .mr-30 {
   margin-right: 30px;
+}
+
+.v-align-middle {
+  vertical-align: middle;
 }
