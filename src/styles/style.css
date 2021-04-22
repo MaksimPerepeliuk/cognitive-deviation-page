@@ -375,3 +375,7 @@ h3 {
 .form button::before {
   content: url('./images/send.svg');
 }
+
+.info {
+  margin-top: 60px;
+}
