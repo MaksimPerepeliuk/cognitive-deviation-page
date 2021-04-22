@@ -77,6 +77,10 @@ h3 {
   justify-content: center;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -179,6 +183,8 @@ h3 {
   text-decoration: none;
 
   background-color: var(--main);
+
+  cursor: pointer;
 }
 
 .text-center {
@@ -226,22 +232,21 @@ h3 {
 
 .nav-title {
   width: 350px;
+  height: 320px;
   margin-right: 20px;
   margin-bottom: 2em;
   padding: 0 24px 24px 0;
-
-  height: 320px;
 }
 
 .nav-item {
+  width: 330px;
+  height: 320px;
   margin-right: 20px;
   margin-bottom: 2em;
   padding: 24px;
-  width: 330px;
-  height: 320px;
 
-  text-decoration: none;
   color: var(--dark);
+  text-decoration: none;
 }
 
 .nav-item:hover {
@@ -259,6 +264,7 @@ h3 {
 
 .digit {
   margin-bottom: 40px;
+
   font-size: 64px;
   font-family: "Neucha", sans-serif;
   line-height: 1;
@@ -268,8 +274,16 @@ h3 {
   font-weight: 400;
 }
 
+.f-size-12 {
+  font-size: 12px;
+}
+
 .f-size-14 {
   font-size: 14px;
+}
+
+.f-size-18 {
+  font-size: 18px;
 }
 
 .f-size-24 {
@@ -330,4 +344,34 @@ h3 {
 
 .v-align-middle {
   vertical-align: middle;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.form .title {
+  width: 400px;
+}
+
+.form input {
+  width: 400px;
+  height: 50px;
+
+  padding: 0 15px;
+
+  border: none;
+}
+
+.form button {
+  position: relative;
+  top: 6px;
+  right: 7px;
+
+  width: 70px;
+  height: 50px;
+}
+
+.form button::before {
+  content: url('./images/send.svg');
 }
